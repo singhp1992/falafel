@@ -1,9 +1,13 @@
-@import url(https://fonts.google.com/specimen/Nunito+Sans);
+/* @import url(https://fonts.google.com/specimen/Nunito+Sans); */
+@font-face {
+  font-family: "Ostrich Sans";
+  src: url(fonts/ostrich-sans-master/OstrichSans-Medium.otf);
+}
 
 /* Basic Styles */
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ostrich Sans', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,6 +31,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     font-size: 2em;
+    margin-top: 10%;
 }
 
 a {
