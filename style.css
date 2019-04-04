@@ -13,12 +13,11 @@ body {
 
 h1 {
     font-weight: lighter;
+    font-size: 1.75em;
 }
 
 .nav {
     display: flex;
-    border-bottom: 2px solid lightslategray;
-    border-top: 2px solid lightslategray;
     justify-content: space-around;
     list-style-type: none;
     margin: 0 auto;
@@ -27,7 +26,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: burlywood;
+    color: rgb(148, 98, 32);
 }
 
 /* Footer */
