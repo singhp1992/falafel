@@ -1,21 +1,28 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:900);
+@import url(https://fonts.google.com/specimen/Nunito+Sans);
 
-body{
-  font-family: 'Lato', sans-serif;
+/* Basic Styles */
+
+body {
+    font-family: 'Nunito', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-weight: lighter;
+}
+
+h1 {
+    font-weight: lighter;
 }
 
 .nav {
-  display: flex;
-  border-bottom: 2px solid lightslategray;
-  border-top: 2px solid lightslategray;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
+    display: flex;
+    border-bottom: 2px solid lightslategray;
+    border-top: 2px solid lightslategray;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 a {
@@ -34,5 +41,6 @@ html, body {
 }
 
 .foot {
-  flex-shrink:0
+  flex-shrink:0;
+  font-size: .75em;
 }
