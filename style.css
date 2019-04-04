@@ -4,6 +4,11 @@
   src: url(fonts/ostrich-sans-master/OstrichSans-Medium.otf);
 }
 
+@font-face {
+  font-family: "Ostrich Sans-Bold";
+  src: url(fonts/ostrich-sans-master/OstrichSans-Bold.otf);
+}
+
 /* Basic Styles */
 
 body {
@@ -18,8 +23,8 @@ body {
 }
 
 h1 {
-    font-weight: lighter;
-    font-size: 1.75em;
+    font-family: "Ostrich Sans-Bold";
+    font-size: 3em;
     width: 33%;
     text-align: center;
     margin: auto;
