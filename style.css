@@ -1,30 +1,46 @@
+@import url(https://fonts.google.com/specimen/Nunito+Sans);
 
-.nav {
-  display: flex;
-  border-bottom: 2px solid lightslategray;
-  border-top: 2px solid lightslategray;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  font-family: 'Advent Pro';
+/* Basic Styles */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: lighter;
 }
 
 h1 {
-    text-align: center; 
+    font-weight: lighter;
 }
 
-footer {
-    text-align: center;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
+.nav {
+    display: flex;
+    border-bottom: 2px solid lightslategray;
+    border-top: 2px solid lightslategray;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: burlywood;
+}
+
+/* Footer */
+
+html, body {
+  height: 100%
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.foot {
+  flex-shrink:0;
+  font-size: .75em;
 }
