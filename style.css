@@ -1,19 +1,28 @@
-@import url(https://fonts.google.com/specimen/Nunito+Sans);
+/* @import url(https://fonts.google.com/specimen/Nunito+Sans); */
+@font-face {
+  font-family: "Ostrich Sans";
+  src: url(fonts/ostrich-sans-master/OstrichSans-Medium.otf);
+}
 
 /* Basic Styles */
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ostrich Sans', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-weight: lighter;
+    background-color: black;
+    color: white;
 }
 
 h1 {
     font-weight: lighter;
     font-size: 1.75em;
+    width: 33%;
+    text-align: center;
+    margin: auto;
 }
 
 .main-header {
@@ -22,15 +31,16 @@ h1 {
     flex-direction: column;
     justify-content: center;
     font-size: 2em;
+    margin-top: 10%;
 }
 
 a {
     text-decoration: none;
-    color: rgb(148, 98, 32);
+    color: white;
 }
 
 a:hover {
-    border-bottom: 1px solid #000 
+    color: rgb(255, 164, 122)
 }
 
 
@@ -49,3 +59,5 @@ html, body {
   flex-shrink:0;
   font-size: .75em;
 }
+
+/* Media Queries */
