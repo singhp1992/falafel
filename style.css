@@ -50,7 +50,8 @@ a:hover {
 /* Nav Bar */
 
 .nav {
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Footer */
