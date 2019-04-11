@@ -47,9 +47,12 @@ a:hover {
     color: rgb(255, 164, 122)
 }
 
-/* Blog Page */
+/* Nav Bar */
 
-
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* Footer */
 
