@@ -6,3 +6,5 @@ function getRandomColor() {
     }
     $('.welcome').css('color', color);
 }
+
+export {getRandomColor}
