@@ -1,4 +1,4 @@
-function getRandomColor() {
+export function getRandomColor() {
     var letters = '0123456789ABCDEF'.split('');
     var color = '#';
     for (var i = 0; i < 6; i++) {
@@ -7,4 +7,3 @@ function getRandomColor() {
     $('.welcome').css('color', color);
 }
 
-export {getRandomColor}
