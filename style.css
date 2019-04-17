@@ -29,7 +29,7 @@ h1 {
     margin: auto;
 }
 
-.main-header {
+.landing-header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
