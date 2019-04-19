@@ -52,7 +52,10 @@ a:hover {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
+  width: 50%;
+  font-size: 2em;
+  margin: auto;
 }
 
 /* Footer */
