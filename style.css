@@ -58,6 +58,12 @@ a:hover {
   margin: auto;
 }
 
+/* About Me page */
+
+.facts-header {
+  font-size: 2em;
+}
+
 /* Footer */
 
 html, body {
