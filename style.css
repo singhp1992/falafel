@@ -51,8 +51,8 @@ a:hover {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: row nowrap;
+  justify-content: space-evenly;
 }
 
 /* Footer */
