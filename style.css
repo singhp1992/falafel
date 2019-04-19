@@ -53,6 +53,7 @@ a:hover {
   display: flex;
   flex-wrap: row nowrap;
   justify-content: space-evenly;
+  margin: auto
 }
 
 /* Footer */
