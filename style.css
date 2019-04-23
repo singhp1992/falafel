@@ -68,6 +68,12 @@ a:hover {
   font-weight: lighter;
 }
 
+.facts {
+  font-size: 1.75em;
+  list-style-type: none;
+  text-align: center;
+}
+
 /* Footer */
 
 html, body {
