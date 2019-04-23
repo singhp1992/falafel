@@ -70,6 +70,7 @@ a:hover {
 
 .facts {
   font-size: 1.3em;
+  list-style-type: none;
 }
 
 /* Footer */
