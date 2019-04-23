@@ -71,6 +71,9 @@ a:hover {
 .facts {
   font-size: 1.3em;
   list-style-type: none;
+  text-align: center;
+  display: flex;
+  /* margin: auto; */
 }
 
 /* Footer */
