@@ -68,6 +68,10 @@ a:hover {
   font-weight: lighter;
 }
 
+.facts {
+  font-size: 1.3em;
+}
+
 /* Footer */
 
 html, body {
