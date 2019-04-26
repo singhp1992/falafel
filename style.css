@@ -66,7 +66,6 @@ a:hover {
   font-size: 2em;
   letter-spacing: .1em;
   font-weight: lighter;
-  text-decoration: underline wavy;
 }
 
 .facts {
@@ -74,6 +73,7 @@ a:hover {
   list-style-type: none;
   text-align: center;
   letter-spacing: .05em;
+  padding-bottom: 20px;
 }
 
 /* Footer */
