@@ -86,8 +86,6 @@ a:hover {
   font-size: 1.5em;
   text-align: center;
   width: 50%;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* Footer */
