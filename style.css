@@ -80,6 +80,12 @@ a:hover {
   padding-bottom: 20px;
 }
 
+/* Blog Posts */
+
+.new-blog {
+  font-size: 1.5em;
+}
+
 /* Footer */
 
 html, body {
