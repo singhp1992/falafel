@@ -97,6 +97,11 @@ a:hover {
   padding: 10px 20px; 
   height: 40px; 
   vertical-align: middle;
+  letter-spacing: .2em;
+}
+
+.title-text {
+  font-size: 18px;
 }
 
 .blog-text {
