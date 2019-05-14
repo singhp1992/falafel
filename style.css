@@ -111,7 +111,6 @@ a:hover {
 .blog-button {
   background-color: black;
   color: white;
-  font-family: 'Ostrich Sans', sans-serif;
 }
 
 /* .title-text {
@@ -124,7 +123,8 @@ a:hover {
 }
 
 input[ type="text" ],
-textarea {
+textarea,
+.blog-button {
   font-family: 'Ostrich Sans', sans-serif;
 }
 
