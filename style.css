@@ -108,6 +108,10 @@ a:hover {
   letter-spacing: .2em;
 }
 
+.title-text {
+  width: 50%;
+}
+
 .blog-button {
   background-color: black;
   color: white;
