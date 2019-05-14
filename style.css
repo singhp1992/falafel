@@ -104,7 +104,8 @@ a:hover {
   width: 250px;
 }
 
-input[type="text"] {
+input[type="text"],
+textarea {
   font-family: 'Ostrich Sans', sans-serif;
 }
 
