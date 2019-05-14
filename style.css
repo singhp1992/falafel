@@ -94,7 +94,7 @@ a:hover {
   border: 2px solid rgb(105, 105, 105); 
   font-size: 14px; 
   font-weight: bold;
-  padding: 0 20px; 
+  padding: 10px 20px; 
   height: 40px; 
   vertical-align: middle;
 }
@@ -104,7 +104,7 @@ a:hover {
   width: 250px;
 }
 
-input[type="text"],
+input[ type="text" ],
 textarea {
   font-family: 'Ostrich Sans', sans-serif;
 }
