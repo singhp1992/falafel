@@ -92,7 +92,7 @@ a:hover {
 .blog-text,
 .title-text {
   border: 2px solid rgb(105, 105, 105); 
-  font-size: 14px; 
+  font-size: 18px; 
   font-weight: bold;
   padding: 10px 20px; 
   height: 40px; 
@@ -100,9 +100,9 @@ a:hover {
   letter-spacing: .2em;
 }
 
-.title-text {
+/* .title-text {
   font-size: 18px;
-}
+} */
 
 .blog-text {
   height: 500px;
