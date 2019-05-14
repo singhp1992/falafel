@@ -108,6 +108,12 @@ a:hover {
   letter-spacing: .2em;
 }
 
+.blog-button {
+  background-color: black;
+  color: white;
+  font-family: 'Ostrich Sans', sans-serif;
+}
+
 /* .title-text {
   font-size: 18px;
 } */
