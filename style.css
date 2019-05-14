@@ -104,6 +104,10 @@ a:hover {
   width: 250px;
 }
 
+input[type="text"] {
+  font-family: 'Ostrich Sans', sans-serif;
+}
+
 /* Footer */
 
 html, body {
