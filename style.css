@@ -100,6 +100,10 @@ a:hover {
   letter-spacing: .2em;
 }
 
+.down-arrow {
+  font-size: 16px;
+}
+
 /* .title-text {
   font-size: 18px;
 } */
