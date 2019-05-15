@@ -129,16 +129,23 @@ textarea,
   font-family: 'Ostrich Sans', sans-serif;
 }
 
-/* Footer */
+.ideal-falafel {
+  display: flex;
+}
+
+
 
 html, body {
   height: 100%
 }
 
 .content {
+  display: inline-flex;
+  flex-wrap: wrap;
   flex: 1 0 auto;
 }
 
+/* Footer */
 .foot {
   flex-shrink:0;
   font-size: .75em;
