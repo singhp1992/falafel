@@ -87,6 +87,12 @@ a:hover {
   width: 50%;
 }
 
+.flex-blog {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 .blog-button,
 .blog-text,
 .title-text {
@@ -129,7 +135,12 @@ textarea,
   font-family: 'Ostrich Sans', sans-serif;
 }
 
-/* Footer */
+.ideal-falafel {
+  display: flex;
+  text-align: center;
+}
+
+/* Content */
 
 html, body {
   height: 100%
@@ -139,6 +150,7 @@ html, body {
   flex: 1 0 auto;
 }
 
+/* Footer */
 .foot {
   flex-shrink:0;
   font-size: .75em;
