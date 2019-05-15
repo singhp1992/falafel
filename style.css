@@ -82,6 +82,8 @@ a:hover {
 /* Blog Posts */
 
 .new-blog {
+  display: inline-flex;
+  flex-wrap: wrap;
   font-size: 1.5em;
   text-align: center;
   width: 50%;
@@ -133,15 +135,13 @@ textarea,
   display: flex;
 }
 
-
+/* Content */
 
 html, body {
   height: 100%
 }
 
 .content {
-  display: inline-flex;
-  flex-wrap: wrap;
   flex: 1 0 auto;
 }
 
