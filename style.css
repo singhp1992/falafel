@@ -135,7 +135,7 @@ textarea,
 .ideal-falafel {
   display: flex;
   width: 50%;
-  /* vertical-align: middle; */
+  vertical-align: middle;
   padding: 10px 20px; 
 }
 
