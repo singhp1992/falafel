@@ -137,6 +137,7 @@ textarea,
   width: 50%;
   vertical-align: middle;
   text-align: center;
+  padding: 10px 20px; 
 }
 
 /* Content */
