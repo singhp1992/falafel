@@ -85,8 +85,8 @@ a:hover {
 }
 
 .flex-blog {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flexg;
+  align-items: stretch;
   width: 100%;
 }
 
@@ -134,7 +134,6 @@ textarea,
 
 .ideal-falafel {
   display: flex;
-  text-align: center;
 }
 
 /* Content */
