@@ -144,6 +144,13 @@ textarea,
   padding: 10px 20px; 
 }
 
+/* Ideal Falafel */
+
+.criteria {
+  width: 50%;
+  margin: auto;
+}
+
 /* Content */
 
 html, body {
