@@ -170,9 +170,12 @@ html, body {
 /* Media Queries */
 
 @media (min-width: 769px){ 
+  .main-header {
+    display: flex;
+  }
 }
 
 
 @media (min-width: 1025px) {
-  
+
 }
