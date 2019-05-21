@@ -168,3 +168,6 @@ html, body {
 }
 
 /* Media Queries */
+
+@media (min-width: 769px){ 
+}
