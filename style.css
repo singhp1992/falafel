@@ -170,8 +170,13 @@ html, body {
 /* Media Queries */
 
 @media (min-width: 769px){ 
-  .main-header {
+  .main-header,
+  .flex-blog {
     display: flex;
+  }
+
+  .new-blog {
+  display: none;
   }
 
   .main-header {
