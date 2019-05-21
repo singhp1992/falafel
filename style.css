@@ -173,6 +173,11 @@ html, body {
   .main-header {
     display: flex;
   }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
