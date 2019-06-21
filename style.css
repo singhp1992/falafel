@@ -106,6 +106,10 @@ a:hover {
   letter-spacing: .2em;
 }
 
+.blog-button:hover {
+  cursor: pointer;
+}
+
 .down-arrow {
   font-size: 16px;
 }
