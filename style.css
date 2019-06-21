@@ -36,8 +36,9 @@ h1 {
     text-align: left;
 }
 
-.long-header {
-  text-align: left;
+.long-header,
+.index-nav {
+  text-align: center;
 }
 
 a {
@@ -103,6 +104,10 @@ a:hover {
   height: 40px; 
   vertical-align: middle;
   letter-spacing: .2em;
+}
+
+.blog-button:hover {
+  cursor: pointer;
 }
 
 .down-arrow {
