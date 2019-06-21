@@ -36,7 +36,8 @@ h1 {
     text-align: left;
 }
 
-.long-header {
+.long-header,
+.index-nav {
   text-align: center;
 }
 
