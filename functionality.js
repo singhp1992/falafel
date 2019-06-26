@@ -6,4 +6,6 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     $('.welcome').css('color', color);
+    $('.smiley').css('color', color);
+    $('.ideal').css('color', color);
 }
