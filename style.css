@@ -181,12 +181,12 @@ html, body {
     align-items: center;
   }
 
-     .new-blog {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 1px auto;
-  width: 90%;
-}
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 90%;
+  }
 
   .nav {
     display: flex;
@@ -206,23 +206,23 @@ html, body {
     margin: auto;
   }
 
-    .new-blog {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 1px auto;
-  width: 50%;
-}
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 50%;
+  }
 
 }
 
 
 @media (min-width: 1025px) {
 
-    .new-blog {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 1px auto;
-  width: 90%;
-}
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 90%;
+  }
 
 }
