@@ -198,10 +198,6 @@ html, body {
     letter-spacing: .2em;
   }
 
-  .comment-title {
-    font-size: 18px;
-  }
-
   .blog-button:hover {
     cursor: pointer;
   }
