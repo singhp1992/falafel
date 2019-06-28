@@ -86,12 +86,6 @@ a:hover {
 
 /* Blog Posts */
 
-.new-blog {
-  font-size: 1.5em;
-  text-align: center;
-  width: 50%;
-}
-
 .flex-blog {
   display: flex;
   align-items: stretch;
@@ -133,7 +127,7 @@ a:hover {
 }
 
 .blog-text {
-  height: 500px;
+  height: 200px;
   width: 50%;
   padding: 10px 10px;
 }
@@ -145,10 +139,10 @@ textarea,
 }
 
 .ideal-falafel {
-  display: flex;
   width: 50%;
   vertical-align: middle;
-  padding: 10px 20px; 
+  padding: 10px 10px; 
+  margin: auto;
 }
 
 /* Ideal Falafel */
@@ -176,15 +170,22 @@ html, body {
 
 /* Media Queries */
 
-@media (min-width: 769px){ 
+@media (max-width: 769px){ 
   .main-header,
   .flex-blog {
-    display: flex;
+    display: inline;
   }
 
   .main-header {
     flex-direction: column;
     align-items: center;
+  }
+
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 90%;
   }
 
   .nav {
@@ -199,17 +200,29 @@ html, body {
 
 }
 
-@media (max-width: 1026px) {
-  .new-blog {
-  display: none;
-  }
+@media (min-width: 770px) and (max-width: 1024px) {
 
   .ideal-falafel {
     margin: auto;
   }
+
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 10%;
+  }
+
 }
 
 
 @media (min-width: 1025px) {
+
+  .new-blog {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1px auto;
+    width: 90%;
+  }
 
 }
