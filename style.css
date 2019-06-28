@@ -86,13 +86,6 @@ a:hover {
 
 /* Blog Posts */
 
-.new-blog {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 1px auto;
-  width: 50%;
-}
-
 .flex-blog {
   display: flex;
   align-items: stretch;
@@ -177,7 +170,7 @@ html, body {
 
 /* Media Queries */
 
-@media (min-width: 769px){ 
+@media (max-width: 769px){ 
   .main-header,
   .flex-blog {
     display: inline;
@@ -187,6 +180,13 @@ html, body {
     flex-direction: column;
     align-items: center;
   }
+
+     .new-blog {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1px auto;
+  width: 90%;
+}
 
   .nav {
     display: flex;
@@ -205,9 +205,24 @@ html, body {
   .ideal-falafel {
     margin: auto;
   }
+
+    .new-blog {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1px auto;
+  width: 50%;
+}
+
 }
 
 
 @media (min-width: 1025px) {
+
+    .new-blog {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1px auto;
+  width: 90%;
+}
 
 }
