@@ -127,6 +127,19 @@ html, body {
 }
 
 @media (min-width: 770px) and (max-width: 1024px) {
+    /* Nav */
+  .nav {
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    justify-content: center;
+    letter-spacing: .1em;
+    display: flex;
+  }
+
+  .nav p {
+    margin: 20px 10px;
+  }
 
   .ideal-falafel {
     margin: auto;
@@ -198,7 +211,7 @@ html, body {
   }
 
   .title-text {
-    width: 50%;
+    width: 40%;
   }
 
   .blog-button {
@@ -209,7 +222,7 @@ html, body {
 
   .blog-text {
     height: 200px;
-    width: 50%;
+    width: 40%;
     padding: 10px 10px;
   }
 
