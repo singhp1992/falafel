@@ -200,7 +200,7 @@ html, body {
 
 }
 
-@media (max-width: 1026px) {
+@media (min-width: 770px) and (max-width: 1024px) {
 
   .ideal-falafel {
     margin: auto;
@@ -210,7 +210,7 @@ html, body {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
-    width: 50%;
+    width: 10%;
   }
 
 }
