@@ -211,18 +211,22 @@ html, body {
   }
 
   .title-text {
-    width: 40%;
+    width: 20%;
   }
-  
+
   .blog-button {
     background-color: black;
     color: white;
     padding: 10px;
   }
 
+  .blog-content {
+    height: 500px;
+  }
+
   .blog-text {
     height: 200px;
-    width: 40%;
+    width: 30%;
     padding: 10px 10px;
   }
 
