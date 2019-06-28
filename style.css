@@ -86,71 +86,7 @@ a:hover {
 
 /* Blog Posts */
 
-.flex-blog {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
-}
 
-.blog-button,
-.blog-text,
-.title-text {
-  border: 2px solid rgb(105, 105, 105); 
-  font-size: 18px; 
-  font-weight: bold;
-  padding: 10px 20px; 
-  height: 40px; 
-  vertical-align: middle;
-  letter-spacing: .2em;
-}
-
-.blog-button:hover {
-  cursor: pointer;
-}
-
-.down-arrow {
-  font-size: 16px;
-}
-
-.wider-spacing {
-  letter-spacing: .1em;
-}
-
-.title-text {
-  width: 50%;
-}
-
-.blog-button {
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-
-.blog-text {
-  height: 200px;
-  width: 50%;
-  padding: 10px 10px;
-}
-
-input[ type="text" ],
-textarea,
-.blog-button {
-  font-family: 'Ostrich Sans', sans-serif;
-}
-
-.ideal-falafel {
-  width: 50%;
-  vertical-align: middle;
-  padding: 10px 10px; 
-  margin: auto;
-}
-
-/* Ideal Falafel */
-
-.criteria {
-  width: 50%;
-  margin: auto;
-}
 
 /* Content */
 
@@ -225,4 +161,69 @@ html, body {
     width: 90%;
   }
 
+  .flex-blog {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+  } 
+
+  .blog-button,
+  .blog-text,
+  .title-text {
+    border: 2px solid rgb(105, 105, 105); 
+    font-size: 18px; 
+    font-weight: bold;
+    padding: 10px 20px; 
+    height: 40px; 
+    vertical-align: middle;
+    letter-spacing: .2em;
+  }
+
+  .blog-button:hover {
+    cursor: pointer;
+  }
+
+  .down-arrow {
+    font-size: 16px;
+  }
+
+  .wider-spacing {
+    letter-spacing: .1em;
+  }
+
+  .title-text {
+    width: 50%;
+  }
+
+  .blog-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+  .blog-text {
+    height: 200px;
+    width: 50%;
+    padding: 10px 10px;
+  }
+
+  input[ type="text" ],
+  textarea,
+  .blog-button {
+    font-family: 'Ostrich Sans', sans-serif;
+  }
+
+  .ideal-falafel {
+    width: 50%;
+    vertical-align: middle;
+    padding: 10px 10px; 
+    margin: auto;
+  }
+
+  /* Ideal Falafel */
+
+  .criteria {
+    width: 50%;
+    margin: auto;
+  }
 }
