@@ -220,6 +220,10 @@ html, body {
     padding: 10px;
   }
 
+  .blog-content {
+    height: 500px;
+  }
+
   .blog-text {
     height: 200px;
     width: 30%;
