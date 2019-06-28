@@ -60,13 +60,6 @@ a:hover {
 
 /* Nav Bar */
 
-.nav {
-  width: 100%;
-  font-size: 2em;
-  margin: auto;
-  letter-spacing: .1em;
-}
-
 
 /* About Me page */
 
@@ -84,73 +77,6 @@ a:hover {
   padding-bottom: 20px;
 }
 
-/* Blog Posts */
-
-.flex-blog {
-  display: flex;
-  align-items: stretch;
-  width: 100%;
-}
-
-.blog-button,
-.blog-text,
-.title-text {
-  border: 2px solid rgb(105, 105, 105); 
-  font-size: 18px; 
-  font-weight: bold;
-  padding: 10px 20px; 
-  height: 40px; 
-  vertical-align: middle;
-  letter-spacing: .2em;
-}
-
-.blog-button:hover {
-  cursor: pointer;
-}
-
-.down-arrow {
-  font-size: 16px;
-}
-
-.wider-spacing {
-  letter-spacing: .1em;
-}
-
-.title-text {
-  width: 50%;
-}
-
-.blog-button {
-  background-color: black;
-  color: white;
-  padding: 10px;
-}
-
-.blog-text {
-  height: 200px;
-  width: 50%;
-  padding: 10px 10px;
-}
-
-input[ type="text" ],
-textarea,
-.blog-button {
-  font-family: 'Ostrich Sans', sans-serif;
-}
-
-.ideal-falafel {
-  width: 50%;
-  vertical-align: middle;
-  padding: 10px 10px; 
-  margin: auto;
-}
-
-/* Ideal Falafel */
-
-.criteria {
-  width: 50%;
-  margin: auto;
-}
 
 /* Content */
 
@@ -201,6 +127,19 @@ html, body {
 }
 
 @media (min-width: 770px) and (max-width: 1024px) {
+    /* Nav */
+  .nav {
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    justify-content: center;
+    letter-spacing: .1em;
+    display: flex;
+  }
+
+  .nav p {
+    margin: 20px 10px;
+  }
 
   .ideal-falafel {
     margin: auto;
@@ -210,7 +149,7 @@ html, body {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
-    width: 10%;
+    width: 70%;
   }
 
 }
@@ -218,11 +157,92 @@ html, body {
 
 @media (min-width: 1025px) {
 
+  /* Nav */
+  .nav {
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    justify-content: center;
+    letter-spacing: .1em;
+    display: flex;
+  }
+
+  .nav p {
+    margin: 20px 10px;
+  }
+
+  /* Comment Section */
+
   .new-blog {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
     margin: 1px auto;
     width: 90%;
   }
 
+  .flex-blog {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+  } 
+
+  .blog-button,
+  .blog-text,
+  .title-text {
+    border: 2px solid rgb(105, 105, 105); 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    height: 40px; 
+    vertical-align: middle;
+    letter-spacing: .2em;
+  }
+
+  .blog-button:hover {
+    cursor: pointer;
+  }
+
+  .down-arrow {
+    font-size: 16px;
+  }
+
+  .wider-spacing {
+    letter-spacing: .1em;
+  }
+
+  .title-text {
+    width: 40%;
+  }
+  
+  .blog-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+
+  .blog-text {
+    height: 200px;
+    width: 40%;
+    padding: 10px 10px;
+  }
+
+  input[ type="text" ],
+  textarea,
+  .blog-button {
+    font-family: 'Ostrich Sans', sans-serif;
+  }
+
+  .ideal-falafel {
+    width: 50%;
+    vertical-align: middle;
+    padding: 10px 10px; 
+    margin: auto;
+  }
+
+  /* Ideal Falafel */
+
+  .criteria {
+    width: 50%;
+    margin: auto;
+  }
 }
