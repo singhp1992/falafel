@@ -60,13 +60,6 @@ a:hover {
 
 /* Nav Bar */
 
-.nav {
-  width: 100%;
-  font-size: 2em;
-  margin: auto;
-  letter-spacing: .1em;
-}
-
 
 /* About Me page */
 
@@ -83,9 +76,6 @@ a:hover {
   letter-spacing: .05em;
   padding-bottom: 20px;
 }
-
-/* Blog Posts */
-
 
 
 /* Content */
@@ -153,6 +143,15 @@ html, body {
 
 
 @media (min-width: 1025px) {
+
+  /* Nav */
+  .nav {
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    letter-spacing: .1em;
+    display: flex;
+  }
 
   .new-blog {
     font-size: 1.5em;
