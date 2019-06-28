@@ -201,9 +201,6 @@ html, body {
 }
 
 @media (max-width: 1026px) {
-  .new-blog {
-  display: none;
-  }
 
   .ideal-falafel {
     margin: auto;
