@@ -58,6 +58,10 @@ a:hover {
   font-size: 2em;
 }
 
+.card-body {
+  border: 1px solid white
+}
+
 /* Nav Bar */
 
 
@@ -250,3 +254,4 @@ html, body {
     margin: auto;
   }
 }
+
