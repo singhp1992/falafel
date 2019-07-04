@@ -199,6 +199,7 @@ html, body {
     width: 90%;
   }
 
+  /* not being used right now! */
   .flex-blog {
     display: flex;
     align-items: stretch;
