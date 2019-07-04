@@ -212,7 +212,7 @@ html, body {
     border: 2px solid rgb(105, 105, 105); 
     font-size: 18px;
     font-weight: bold;
-    padding: 5px 5px; 
+    padding: 1px 5px; 
     height: 40px; 
     vertical-align: middle;
     letter-spacing: .2em;
