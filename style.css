@@ -126,7 +126,7 @@ html, body {
     align-items: center;
   }
 
-  .new-blog {
+  .comment-section {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
@@ -164,7 +164,7 @@ html, body {
     margin: auto;
   }
 
-  .new-blog {
+  .comment-section {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
@@ -192,21 +192,22 @@ html, body {
 
   /* Comment Section */
 
-  .new-blog {
+  .comment-section {
     font-size: 1.2em;
     text-align: center;
     margin: 1px auto;
     width: 90%;
   }
 
+  /* not being used right now! */
   .flex-blog {
     display: flex;
     align-items: stretch;
     width: 100%;
   } 
 
-  .blog-button,
-  .blog-text,
+  .comment-button,
+  .comment-text,
   .title-text {
     border: 2px solid rgb(105, 105, 105); 
     font-size: 18px;
@@ -217,7 +218,7 @@ html, body {
     letter-spacing: .2em;
   }
 
-  .blog-button:hover {
+  .comment-button:hover {
     cursor: pointer;
   }
 
@@ -233,7 +234,7 @@ html, body {
     width: 20%;
   }
 
-  .blog-button {
+  .comment-button {
     background-color: black;
     color: white;
     padding: 10px;
@@ -243,7 +244,7 @@ html, body {
     height: 500px;
   }
 
-  .blog-text {
+  .comment-text {
     height: 100px;
     width: 30%;
     padding: 10px 10px;
@@ -251,7 +252,7 @@ html, body {
 
   input[ type="text" ],
   textarea,
-  .blog-button {
+  .comment-button {
     font-family: 'Ostrich Sans', sans-serif;
   }
 
@@ -266,6 +267,8 @@ html, body {
 
   .criteria {
     width: 50%;
+    /* remove height when the real blog post is ready */
+    height: 500px; 
     margin: auto;
   }
 }
