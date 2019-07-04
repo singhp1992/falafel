@@ -9,3 +9,5 @@ function getRandomColor() {
     $('.facts-me').css('color', color);
     $('.ideal').css('color', color);
 }
+
+// add maps api here
