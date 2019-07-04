@@ -266,7 +266,8 @@ html, body {
 
   .criteria {
     width: 50%;
-    height: 500px;
+    /* remove height when the real blog post is ready */
+    height: 500px; 
     margin: auto;
   }
 }
