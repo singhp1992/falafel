@@ -126,7 +126,7 @@ html, body {
     align-items: center;
   }
 
-  .new-blog {
+  .comment-section {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
@@ -164,7 +164,7 @@ html, body {
     margin: auto;
   }
 
-  .new-blog {
+  .comment-section {
     font-size: 1.5em;
     text-align: center;
     margin: 1px auto;
@@ -192,7 +192,7 @@ html, body {
 
   /* Comment Section */
 
-  .new-blog {
+  .comment-section {
     font-size: 1.2em;
     text-align: center;
     margin: 1px auto;
