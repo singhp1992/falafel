@@ -3,9 +3,9 @@
 This is my personal front-end blog where I rate falafel! 
 
 ### Made with:  
-### HTML
-### CSS
-### JAVASCRIPT
+#### HTML
+#### CSS
+#### JAVASCRIPT
 
 
 
