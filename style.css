@@ -83,6 +83,10 @@ a:hover {
   justify-content: space-evenly;
 }
 
+.ideal-info {
+  color: black;
+}
+
 /* About Me page */
 
 .facts-header {
