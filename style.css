@@ -43,6 +43,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -106,7 +107,7 @@ html, body {
 
 .content {
   flex: 1 0 auto;
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 /* Footer */
