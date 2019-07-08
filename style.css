@@ -87,6 +87,10 @@ a:hover {
   color: black;
 }
 
+.bottom-shadow {
+  box-shadow: 0 4px 2px -2px gray;
+}
+
 /* About Me page */
 
 .facts-header {
