@@ -42,8 +42,8 @@ h1 {
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
@@ -52,6 +52,7 @@ a:hover {
 
 .main-header {
   margin-top: 2.5em;
+  height: 150px;
 }
 
 .coming-soon {
@@ -59,11 +60,11 @@ a:hover {
 }
 
 .card-body {
-  border: 1px solid whitesmoke;
+  border: 1px solid rgb(88, 88, 88);
   padding-bottom: 10px;
-  background-color: black;
-  color: white;
-  box-shadow: 5px 5px whitesmoke;
+  /* background-color: black; */
+  color: black;
+  box-shadow: 5px 5px rgb(168, 167, 167);
   font-size: 1.5em;
   height: 200px;
   width: 300px;
@@ -76,13 +77,10 @@ a:hover {
 
 .all-cards {
   width: 70%;
-  margin: auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
 }
-
-/* Nav Bar */
-
 
 /* About Me page */
 
@@ -109,6 +107,7 @@ html, body {
 
 .content {
   flex: 1 0 auto;
+  background-color: whitesmoke;
 }
 
 /* Footer */
