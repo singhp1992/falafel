@@ -116,6 +116,7 @@ html, body {
 }
 
 /* Footer */
+
 .foot {
   flex-shrink:0;
   font-size: .75em;
@@ -208,11 +209,11 @@ html, body {
   }
 
   /* not being used right now! */
-  .flex-blog {
+  /* .flex-blog {
     display: flex;
     align-items: stretch;
     width: 100%;
-  } 
+  }  */
 
   .comment-button,
   .comment-text,
@@ -270,8 +271,6 @@ html, body {
     padding: 10px 10px; 
     margin: auto;
   }
-
-  /* Ideal Falafel */
 
   .criteria {
     width: 50%;
