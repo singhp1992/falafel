@@ -116,6 +116,7 @@ html, body {
 }
 
 /* Footer */
+
 .foot {
   flex-shrink:0;
   font-size: .75em;
