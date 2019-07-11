@@ -116,6 +116,10 @@ html, body {
   background-color: whitesmoke;
 }
 
+.search {
+  text-align: right;
+}
+
 /* Footer */
 
 .foot {
