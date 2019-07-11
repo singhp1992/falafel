@@ -51,8 +51,9 @@ a:hover {
 }
 
 .main-header {
-  margin-top: 2.5em;
   height: 150px;
+  width: 50%;
+  margin: 2.5em auto;
 }
 
 .coming-soon {
@@ -113,6 +114,11 @@ html, body {
 .content {
   flex: 1 0 auto;
   background-color: whitesmoke;
+}
+
+.search {
+  text-align: right;
+  margin-right: 2em;
 }
 
 /* Footer */
