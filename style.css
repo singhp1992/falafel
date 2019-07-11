@@ -51,8 +51,9 @@ a:hover {
 }
 
 .main-header {
-  margin-top: 2.5em;
+  /* margin-top: 2.5em; */
   height: 150px;
+  width: 50%;
 }
 
 .coming-soon {
