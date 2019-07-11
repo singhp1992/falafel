@@ -118,6 +118,7 @@ html, body {
 
 .search {
   text-align: right;
+  margin-right: 2em;
 }
 
 /* Footer */
